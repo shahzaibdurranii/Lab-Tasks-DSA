@@ -6,7 +6,7 @@ public class LabTask4 {
     int len1 = word1.length();
     int len2 = word2.length();
     int maxLength = Math.max(len1, len2);
-    
+
     for (int i = 0; i < maxLength; i++) {
         if (i < len1) {
             mergedString.append(word1.charAt(i));
@@ -20,9 +20,9 @@ public class LabTask4 {
 }
   public static void main(String[] args) {
     String word1 = "abc";
-        String word2 = "pqr";
-        String result = mergeAlternately(word1, word2);
-        System.out.println("Merged string: " + result);
+    String word2 = "pqr";
+    String result = mergeAlternately(word1, word2);
+    System.out.println("Merged string: " + result);
   }
 
 }
