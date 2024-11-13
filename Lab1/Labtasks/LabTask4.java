@@ -1,4 +1,4 @@
-package Lab1;
+package Lab1.Labtasks;
 
 public class LabTask4 {
   public static String mergeAlternately(String word1, String word2) {
