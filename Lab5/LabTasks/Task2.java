@@ -15,17 +15,13 @@ public class Task2 {
                     int temp = arr[j];
                     arr[j] = arr[j + 1];
                     arr[j + 1] = temp;
-                    swapped = true;
-                }
-            }
+                    swapped = true;}}
             System.out.print("Iteration " + (i + 1) + ": ");
             for (int num : arr) {
-                System.out.print(num + " ");
-            }
+                System.out.print(num + " ");}
             System.out.println();
             if (!swapped) {
-                break;
-            }
+                break; }
         }
         System.out.print("Sorted array: ");
         for (int num : arr) {
