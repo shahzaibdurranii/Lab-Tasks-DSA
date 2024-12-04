@@ -1,7 +1,6 @@
 package Lab5.HomeTasks;
 public class home_task_1 {
     public static void main(String[] args) {
-        // SHAHZAIB DURRANI
         int[] accNumbers = {3547, 1245, 6789, 2345, 7890};
         int[] balances = {24856, 12584, 48521, 39632, 12147};
         System.out.println("Before Sorting:");
@@ -15,8 +14,7 @@ public class home_task_1 {
             int pivotIndex = partition(balances, accNumbers, low, high);
             quickSort(balances, accNumbers, low, pivotIndex - 1);
             quickSort(balances, accNumbers, pivotIndex + 1, high);
-        }
-    }
+        }}
     static int partition(int[] balances, int[] accNumbers, int low, int high) {
         int pivot = balances[high];
         int i = low - 1; 
